@@ -1,0 +1,4 @@
+#!/bin/bash  
+cp ../*.png ./
+mogrify -resize 50% -background white -alpha remove *.png
+
