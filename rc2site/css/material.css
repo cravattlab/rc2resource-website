@@ -1,0 +1,53 @@
+section{
+  padding-top:75px !important;
+}
+form{
+  margin:auto;
+}
+
+form table{
+  width:100%;
+  border-collapse: collapse;
+  margin-bottom:5em;
+}
+
+form table td{
+  padding:0.1em;
+  text-align:left;
+}
+
+form table th{
+  width:35%;
+  text-align: right;
+  line-height:3.5em;
+  line-height:1em;
+}
+
+form, form table{
+  margin:auto;
+}
+
+form label{
+  padding:0;
+  margin:0;
+  line-height:1em;
+}
+
+form textarea, form input{
+  width:100%;
+  padding:0.8em;
+  border-radius: 0.8em;
+  border:1px solid #222222;
+}
+
+form textarea{
+  height:8em;
+}
+
+@media (min-width: 768px) {
+  form table{
+    width:55%;
+    border-collapse: collapse;
+    margin-bottom:1em;
+  }
+}
