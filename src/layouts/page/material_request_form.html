@@ -1,0 +1,83 @@
+{{ define "extra_styles" }}
+<!-- Custom styles for this template -->
+<link href="css/material.css" rel="stylesheet">
+{{ end }}
+
+{{ define "extra_scripts" }}
+<!-- Plugin JavaScript-->
+<script type="text/javascript" src="vendor/jspdf/jspdf.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/material.js"></script>
+{{ end }}
+
+{{ define "main" }}
+<!--Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
+	<div class="container">
+		<a class="navbar-brand" href="./index.html"><span class="fa fa-home"></span></a>
+		<div class="" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link js-scroll-trigger active">Material Request Form</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<section id="material_request_form">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<form>
+					<h2>Material Request Form <br /><span class="small">(for resources developed by projects DK099810 and DK114785)</span></h2>
+
+					<table>
+						<tr>
+							<th><label for="req_mat_name">Name of reagent(s):</label></th>
+							<td><input type="text" name="req_mat_name" id="req_mat_name" placeholder="Reagent" /></td>
+						</tr>
+						<tr>
+							<th><label for="req_quant">Quantity required:</label></th>
+							<td><input type="text" name="req_quant" id="req_quant" placeholder="Quantity" /></td>
+						</tr>
+
+						<tr><th>Your contact details</th><th>&nbsp;</th></tr>
+							<tr>
+								<th><label for="req_name">Name:</label></th>
+								<td><input type="text" name="req_name" id="req_name" placeholder="Name" /></td>
+							</tr>
+							<tr>
+								<th><label for="req_email">E-mail address:</label></th>
+								<td><input type="text" name="req_email" id="req_email" placeholder="E-mail" /></td>
+							</tr>
+							<tr>
+								<th><label for="req_phone">Phone number:</label></th>
+								<td><input type="text" name="req_phone" id="req_phone" placeholder="Phone" /></td>
+							</tr>
+							<tr>
+								<th><label for="req_deparment">Department:</label></th>
+								<td><input type="text" name="req_deparment" id="req_deparment" placeholder="Department" /></td>
+							</tr>
+							<tr>
+								<th><label for="req_inst">Univeristy / Institute:</label></th>
+								<td><input type="text" name="req_inst" id="req_inst" placeholder="University / Institute" /></td>
+							</tr>
+							<tr>
+								<th><label for="req_address">Shipping address:</label></th>
+								<td><textarea name="req_address" id="req_address" placeholder="Shipping address"></textarea></td>
+							</tr>
+							<tr>
+								<th><label for="req_fedex">FedEx account:</label></th>
+								<td><input type="text" name="req_fedex" id="req_fedex" placeholder="FedEx" /></td>
+							</tr>
+						</table>
+
+					</form>
+					<div><a href="#" id="gen_form" class="btn btn-default btn-xl">Save PDF</a></div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}

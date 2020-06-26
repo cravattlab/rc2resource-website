@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode }}">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="" name="description">
+	<meta content="" name="author">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<title>{{ $.Site.Title }}</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom fonts for this template -->
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+
+	<!-- Custom styles for this template -->
+	<link href="css/creative.css" rel="stylesheet">
+	{{ block "extra_styles" . }} {{ end }}
+</head>
+
+<body id="page-top">
+	{{ block "main" . }} {{ end }}
+
+	<section id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<p>Designed and maintained by <a href="mailto:lummyk@scripps.edu">Kenneth Lum</a>. Last edited: Apr 2019. Theme adapted from <a target="_blank" href="http://startbootstrap.com/template-overviews/creative"><em>Start Bootstrap - Creative v4.0.0-beta</em></a> by <a
+						 target="_blank" href="https://github.com/BlackrockDigital/">BlackrockDigital</a>, which is licensed under the <a target="_blank" href="https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE">MIT License</a>. Header
+						graphic adapted from <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/6/6e/Metabolic_Metro_Map.svg"><em>Metabolic Metro Map</em></a> by <a href="https://en.wikipedia.org/wiki/User:Chakazul">Chakazul</a>, which is
+						licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>. Commercial sources of compounds presented here were found from web searches. Links to commercial sources are provided solely for
+						the convenience of the research community and are not an endorsement or recommendation. We do not control the content of these sites nor compounds offered therein and are not responsible for their accuracy or quality.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Bootstrap core JavaScript-->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/popper/popper.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	{{ block "extra_scripts" . }} {{ end }}
+</body>
+</html>

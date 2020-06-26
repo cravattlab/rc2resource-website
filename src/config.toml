@@ -1,0 +1,18 @@
+title = "Resource Site for Chemoproteomic Identification and Therapeutic Validation of Proteins of Metabolic Significance"
+baseURL = "https://rc2resource.scripps.edu"
+languageCode = "en-us"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]
+sectionPagesMenu = "main"
+enableGitInfo = true
+
+[params]
+    description = "Project resource website"
+    authorName = "Radu Suciu"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "Home"
+    url = "/"
+    weight = -110
