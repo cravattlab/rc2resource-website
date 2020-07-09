@@ -1,0 +1,59 @@
+<div class="cmpd">
+    <table class="cmpd_data">
+        <thead>
+            <tr>
+                <td colspan="2"><a id="{{ lower .Params.name }}"><img alt="{{ .Params.name }}" src="img/structures/{{ .Params.name }}.png"></a></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Name:</th>
+                <td>{{ .Params.name }}</td>
+            </tr>
+            <tr>
+                <th>Activity:</th>
+                <td>{{ .Params.activity }}</td>
+            </tr>
+            <tr>
+                <th>PubChem CID:</th>
+                <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/{{ .Params.pubmed_cid }}" target="_blank">{{ .Params.pubmed_cid }}</a></td>
+            </tr>
+            <tr>
+                <th>CAS #:</th>
+                <td>{{ .Params.cas }}</td>
+            </tr>
+            <tr>
+                <th>Sys. name:</th>
+                <td>{{ .Params.systematic_name }}</td>
+            </tr>
+            {{ with .Params.synonyms }}
+            <tr>
+                <th>Synonyms:</th>
+                <td>{{ delimit . ", "}}</td>
+            </tr>
+            {{ end }}
+            <tr>
+                <th>Mol. wt.:</th>
+                <td>{{ .Params.molecular_weight }}</td>
+            </tr>
+            <tr>
+                <th>Suppliers:</th>
+                <td class="suppliers">
+                    {{ range .Params.suppliers }}
+                        <a href="{{ .link }}" target="_blank">{{ .name }}</a>
+                    {{ else }}
+                        {{ if (not .Params.non_requestable )}}
+                        <a class="btn btn-default" href="./material_request_form.html?item={{ .Params.name }}" target="_blank">Request</a>
+                        {{ end }}
+                    {{ end }}
+                </td>
+            </tr>
+            <tr>
+                <td class="cmpd_desc" colspan="2">
+                    <p>{{ .Content }}</p>
+                    {{ partial "references" .Params.references }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
