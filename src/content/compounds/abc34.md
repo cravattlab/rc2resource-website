@@ -9,12 +9,12 @@ synonyms = []
 molecular_weight = "571.63"
 
 [suppliers]
-    [supplier.cayman]
+    [suppliers.cayman]
         name = "Cayman"
         link = "https://www.caymanchem.com/product/19385"
 
 [references]
-    [reference.parsons]
+    [references.parsons]
         authors_list = "Parsons, W. H., Kolar, M. J., Kamat, S. S., Cognetta, A. B., 3rd, Hulce, J. J., Saez, E., Kahn, B. B., Saghatelian, A., and Cravatt, B. F."
         title = "AIG1 and ADTRP are atypical integral membrane hydrolases that degrade bioactive FAHFAs"
         journal = "Nat. Chem. Biol."

@@ -11,7 +11,7 @@ molecular_weight = "432.40"
 [suppliers]
 
 [references]
-    [reference.inloes]
+    [references.inloes]
         authors_list = "Inloes, J. M., Hsu, K.-L., Dix, M. M., Viader, A., Masuda, K., Takei, T., Wood, M. R., and Cravatt, B. F."
         title = "The hereditary spastic paraplegia-related enzyme DDHD2 is a principal brain triglyceride lipase"
         journal = "Proc. Natl. Acad. Sci. U.S.A."

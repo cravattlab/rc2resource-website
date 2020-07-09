@@ -11,7 +11,7 @@ molecular_weight = "849.13"
 [suppliers]
 
 [references]
-    [reference.parsons]
+    [references.parsons]
         authors_list = "Parsons, W. H., Kolar, M. J., Kamat, S. S., Cognetta, A. B., 3rd, Hulce, J. J., Saez, E., Kahn, B. B., Saghatelian, A., and Cravatt, B. F."
         title = "AIG1 and ADTRP are atypical integral membrane hydrolases that degrade bioactive FAHFAs"
         journal = "Nat. Chem. Biol."
@@ -20,7 +20,7 @@ molecular_weight = "849.13"
         pages = "367-372"
         doi_link = "https://doi.org/10.1038/nchembio.2051"
         pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/27018888"
-    [reference.kamat]
+    [references.kamat]
         authors_list = "Kamat, S. S., Camara, K., Parsons, W. H., Chen, D. H., Dix, M. M., Bird, T. D., Howell, A. R., and Cravatt, B. F."
         title = "Immunomodulatory lysophosphatidylserines are regulated by ABHD16A and ABHD12 interplay"
         journal = "Nat. Chem. Biol."

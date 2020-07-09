@@ -9,21 +9,21 @@ synonyms = []
 molecular_weight = "458.49"
 
 [suppliers]
-    [supplier.sigma]
+    [suppliers.sigma]
         name = "Sigma"
         link = "https://www.sigmaaldrich.com/catalog/product/sigma/sml1998"
-    [supplier.cayman]
+    [suppliers.cayman]
         name = "Cayman"
         link = "https://www.caymanchem.com/product/19889"
-    [supplier.tocris]
+    [suppliers.tocris]
         name = "Tocris"
         link = "https://www.tocris.com/products/klh-45_5865"
-    [supplier.rndsystems]
+    [suppliers.rndsystems]
         name = "R&D Systems"
         link = "https://www.rndsystems.com/products/klh-45_5865"
 
 [references]
-    [reference.inloes]
+    [references.inloes]
         authors_list = "Inloes, J. M., Hsu, K.-L., Dix, M. M., Viader, A., Masuda, K., Takei, T., Wood, M. R., and Cravatt, B. F."
         title = "The hereditary spastic paraplegia-related enzyme DDHD2 is a principal brain triglyceride lipase"
         journal = "Proc. Natl. Acad. Sci. U.S.A."

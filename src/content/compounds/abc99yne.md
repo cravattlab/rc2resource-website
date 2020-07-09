@@ -1,17 +1,18 @@
 +++
 name = "ABC99yne"
-target = "Notum"
+target = "NOTUM"
 activity = "Probe"
 pubchem_cid = "-"
 cas = "-"
 systematic_name = "7-(4-chlorobenzyl)-1,3-dioxohexahydroimidazo[1,5-a]pyrazin-2(3H)-yl 4-(prop-2-yn-1-yl)-3,4-dihydroquinoxaline-1(2H)-carboxylate"
 synonyms = []
 molecular_weight = "493.95"
+non_requestable = true
 
 [suppliers]
 
 [references]
-    [reference.suciu]
+    [references.suciu]
         authors_list = "Suciu, R. M., Cognetta, A. B., 3rd, Potter Z. E., and Cravatt, B. F."
         title = "Selective Irreversible Inhibitors of the Wnt-Deacylating Enzyme NOTUM Developed by Activity-Based Protein Profiling"
         journal = "ACS Med. Chem. Lett."

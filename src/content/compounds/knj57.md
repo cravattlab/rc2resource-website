@@ -9,15 +9,15 @@ synonyms = ["CGP201722"]
 molecular_weight = "310.40"
 
 [suppliers]
-    [supplier.aurora]
+    [suppliers.aurora]
         name = "Aurora"
         link = "http://online.aurorafinechemicals.com/info?ID=K01.920.433"
-    [supplier.labnetwork]
+    [suppliers.labnetwork]
         name = "Lab Network"
         link = "https://labnetwork.com/frontend-app/p/#%21/moleculedetails/LN00972886"
 
 [references]
-    [reference.parker]
+    [references.parker]
         authors_list = "Parker, C. G., Galmozzi, A., Wang, Y., Correia, B. E., Sasaki, K., Joslyn, C. M., Kim, A. S., Cavallaro, C. L., Lawrence, R. M., Johnson, S. R., Narvaiza, I., Saez, E., and Cravatt, B. F."
         title = "Ligand and Target Discovery by Fragment-Based Screening in Human Cells"
         journal = "Cell"

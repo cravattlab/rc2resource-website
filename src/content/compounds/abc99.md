@@ -1,6 +1,6 @@
 +++
 name = "ABC99"
-target = "Notum"
+target = "NOTUM"
 activity = "Inhibitor"
 pubchem_cid = "134817170"
 cas = "-"
@@ -9,18 +9,18 @@ synonyms = []
 molecular_weight = "456.88"
 
 [suppliers]
-    [supplier.cayman]
+    [suppliers.cayman]
         name = "Cayman"
         link = "https://www.caymanchem.com/product/25858"
-    [supplier.aablocks]
+    [suppliers.aablocks]
         name = "AA Blocks"
         link = "https://www.aablocks.com/goods/Goods/detail?id=AA01EQAI"
-    [supplier.dcchemicals]
+    [suppliers.dcchemicals]
         name = "DC Chemicals"
         link = "http://www.dcchemicals.com/product_show-DC10929.html"
 
 [references]
-    [reference.suciu]
+    [references.suciu]
         authors_list = "Suciu, R. M., Cognetta, A. B., 3rd, Potter Z. E., and Cravatt, B. F."
         title = "Selective Irreversible Inhibitors of the Wnt-Deacylating Enzyme NOTUM Developed by Activity-Based Protein Profiling"
         journal = "ACS Med. Chem. Lett."

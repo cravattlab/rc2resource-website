@@ -9,27 +9,27 @@ synonyms = []
 molecular_weight = "437.50"
 
 [suppliers]
-    [supplier.sigma]
+    [suppliers.sigma]
         name = "Sigma"
         link = "https://www.sigmaaldrich.com/catalog/product/sigma/sml1641"
-    [supplier.cayman]
+    [suppliers.cayman]
         name = "Cayman"
         link = "https://www.caymanchem.com/product/10011213"
-    [supplier.trc]
+    [suppliers.trc]
         name = "TRC"
         link = "https://www.trc-canada.com/product-detail/?W700503"
-    [supplier.scbt]
+    [suppliers.scbt]
         name = "SCBT"
         link = "https://www.scbt.com/scbt/product/wwl70-947669-91-2"
-    [supplier.arkpharm]
+    [suppliers.arkpharm]
         name = "Ark Pharm"
         link = "http://www.arkpharminc.com/product/detail/AK213222.html"
-    [supplier.aurora]
+    [suppliers.aurora]
         name = "Aurora"
         link = "http://online.aurorafinechemicals.com/info?ID=A18.033.969"
 
 [references]
-    [reference.blankman]
+    [references.blankman]
         authors_list = "Li, W., Blankman, J. L., and Cravatt, B. F."
         title = "A Functional Proteomic Strategy to Discover Inhibitors for Uncharacterized Hydrolases"
         journal = "J. Am. Chem. Soc."
@@ -38,7 +38,7 @@ molecular_weight = "437.50"
         pages = "9594-9595"
         doi_link = "https://doi.org/10.1021/ja073650c"
         pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/17629278"
-    [reference.zhao]
+    [references.zhao]
         authors_list = "Zhao, S., Mugabo, Y., Ballentine, G., Attane, C., Iglesias, J., Poursharifi, P., Zhang, D., Nguyen, T. A., Erb, H., Prentki, R., Peyot, M. L., Joly, E., Tobin, S., Fulton, S., Brown, J. M., Madiraju, S. R., and Prentki, M."
         title = "α/β-Hydrolase Domain 6 Deletion Induces Adipose Browning and Prevents Obesity and Type 2 Diabetes"
         journal = "Cell Rep."
