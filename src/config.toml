@@ -16,3 +16,6 @@ enableGitInfo = true
     title = "Home"
     url = "/"
     weight = -110
+
+[markup.goldmark.renderer]
+  unsafe = true
