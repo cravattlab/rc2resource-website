@@ -370,7 +370,7 @@ header.masthead {
     text-decoration: none;
     font-weight: 700;
     font-size: smaller;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align:left;
     border: none;
     border-radius: 300px;
