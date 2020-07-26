@@ -1,46 +1,46 @@
-section{
+section {
   padding-top:75px !important;
 }
-form{
+form {
   margin:auto;
 }
 
-form table{
+form table {
   width:100%;
   border-collapse: collapse;
   margin-bottom:5em;
 }
 
-form table td{
+form table td {
   padding:0.1em;
   text-align:left;
 }
 
-form table th{
+form table th {
   width:35%;
   text-align: right;
   line-height:3.5em;
   line-height:1em;
 }
 
-form, form table{
+form, form table {
   margin:auto;
 }
 
-form label{
+form label {
   padding:0;
   margin:0;
   line-height:1em;
 }
 
-form textarea, form input{
+form textarea, form input {
   width:100%;
   padding:0.8em;
   border-radius: 0.8em;
   border:1px solid #222222;
 }
 
-form textarea{
+form textarea {
   height:8em;
 }
 
