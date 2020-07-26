@@ -4,6 +4,7 @@ languageCode = "en-us"
 disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT", "404"]
 sectionPagesMenu = "main"
 enableGitInfo = true
+assetDir = "static"
 
 [params]
     description = "Project resource website"

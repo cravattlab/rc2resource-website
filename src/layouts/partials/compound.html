@@ -4,8 +4,15 @@
             <tr>
                 <td colspan="2">
                     <a id="{{ lower .Params.name }}">
+                        {{- $image := resources.Get (printf "img/structures/%s.png" .Params.name ) -}}
+                        {{ $aspectRatio := div $image.Width $image.Height }}
+                        {{ $imgClass := cond (ge $aspectRatio 2) "wide" (cond (le $aspectRatio 0.5) "tall" "square") }}
 
-                        <img alt="{{ .Params.name }}" src="img/structures/{{ .Params.name }}.png">
+                        <img
+                            alt="{{ .Params.name }}"
+                            src="img/structures/{{ .Params.name }}.png"
+                            class="{{ $imgClass }}"
+                        >
                     </a>
                 </td>
             </tr>
@@ -21,7 +28,7 @@
             </tr>
             <tr>
                 <th>PubChem CID:</th>
-                <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/{{ .Params.pubmed_cid }}" target="_blank">{{ .Params.pubmed_cid }}</a></td>
+                <td><a href="https://pubchem.ncbi.nlm.nih.gov/compound/{{ .Params.pubchem_cid }}" target="_blank">{{ .Params.pubchem_cid }}</a></td>
             </tr>
             <tr>
                 <th>CAS #:</th>
