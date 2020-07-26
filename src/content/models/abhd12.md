@@ -23,7 +23,7 @@ target = "ABHD12"
 
 +++
 
-<p><em>Whole-body or conditional knockout:</em> Whole-body</p>
+<p><em>Knockout type:</em> Whole-body</p>
 <p><em>Viability:</em> DDHD2<sup>-/-</sup> mice were viable; born at expected Mendelian frequency</p>
 <p>DDHD2<sup>-/-</sup> mice were fertile and largely exhibited normal cage behavior and general ambulation. However, aged DDHD2<sup>-/-</sup> mice (6 months) had locomotor defects, including shorter stride lengths, reductions in rearing behavior, and poorer motor coordination when compared to wildtype mice. DDHD2<sup>-/-</sup> mice did not show differences in vision or willingness to explore new environments (Y-maze test), but had impaired spatial learning and memory (Barnes maze), including long-term spatial memory (re-evaluation after 2 weeks).</p>
 <p>Adult (2–4 month-old) DDHD2<sup>-/-</sup> mice showed accumulation of several triacylglycerol species (TAG; ~3–5 fold) in their brains, whereas other major lipid classes (e.g., phospholipids, lysophospholipids, free fatty acids,
