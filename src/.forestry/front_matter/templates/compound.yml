@@ -65,7 +65,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: name
   label: Suppliers
   description: List of commercial suppliers for this compound.
 - name: references
@@ -124,7 +124,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: References
   description: Literature references pertaining to this compound
 pages:
