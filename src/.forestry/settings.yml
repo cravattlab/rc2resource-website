@@ -12,13 +12,17 @@ sections:
 - type: directory
   path: src/content/models
   label: Models
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - model
 - type: directory
   path: src/content/compounds
   label: Compounds
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - compound
 upload_dir: src/static/img/structures
 public_path: "/img/structures"
 front_matter_path: ''
