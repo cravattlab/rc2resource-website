@@ -5,7 +5,7 @@ activity = "Gain-of-function ligand"
 pubchem_cid = "132274146"
 cas = "2094991-62-3"
 systematic_name = "(S)-2-butyramido-4-methyl-N-(naphthalen-2-yl)pentanamide"
-synonyms = []
+synonyms = ["CGP201727"]
 molecular_weight = "326.44"
 
 [suppliers]
