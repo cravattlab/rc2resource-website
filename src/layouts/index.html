@@ -89,7 +89,9 @@
     {{ $compound_resources := $headless.Resources.ByType "page" }}
     
     {{ range $compound_resources }}
-        {{ $targets = $targets | append (slice .Params.target) }}
+        {{ if (not .Params.draft) }}
+            {{ $targets = $targets | append (slice .Params.target) }}
+        {{ end}}
     {{ end }}
 
     {{ $unique_targets := sort (uniq $targets) }}
@@ -123,6 +125,15 @@
 <section id="models">
     {{ $headless := .Site.GetPage "/models" }}
     {{ $model_resources := $headless.Resources.ByType "page" }}
+
+    {{ $models := slice }}
+
+    {{ range $model_resources }}
+        {{ if (not .Params.draft) }}
+            {{ $models = $models | append (slice .) }}
+        {{ end}}
+    {{ end }}
+
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -130,17 +141,14 @@
                 <hr>
 
                 <div class="panel-group" id="accordion_ko">
-                    {{ range $index, $model := sort $model_resources }}
+                    {{ range $index, $model := sort $models }}
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title"><a aria-expanded="false" class="accordion-toggle collapsed" data-toggle="collapse" href="#collapse_ko_{{ add $index 1 }}">{{ .Params.target }}</a></h4>
                         </div>
                         <div role="tabpanel" aria-expanded="false" class="panel-collapse collapse" id="collapse_ko_{{ add $index 1 }}">
                             <div class="panel-body">
-                                <div class="knockout">
-                                    {{ .Content }}
-                                    {{ partial "references" .Params.references }}
-                                </div>
+                                {{ partial "model.html" . }}
                             </div>
                         </div>
                     </div>
