@@ -1,11 +1,11 @@
 +++
-name = "ABC99yne"
-structure = "/img/structures/ABC99yne.png"
 activity = "Probe"
-cas = "-"
+cas = ""
 molecular_weight = "493.95"
+name = "ABC99yne"
 non_requestable = true
-pubchem_cid = "-"
+pubchem_cid = ""
+structure = "/img/structures/ABC99yne.png"
 suppliers = []
 synonyms = []
 systematic_name = "7-(4-chlorobenzyl)-1,3-dioxohexahydroimidazo[1,5-a]pyrazin-2(3H)-yl 4-(prop-2-yn-1-yl)-3,4-dihydroquinoxaline-1(2H)-carboxylate"
