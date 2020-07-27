@@ -411,6 +411,7 @@ header.masthead {
   .cmpd img {
     vertical-align: top;
     padding-top:10px;
+    max-width:100%;
   }
   .cmpd thead td {
     text-align: center !important;
