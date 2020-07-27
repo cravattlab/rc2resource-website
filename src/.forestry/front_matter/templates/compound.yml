@@ -126,3 +126,44 @@ fields:
     labelField: 
   label: References
   description: Literature references pertaining to this compound
+pages:
+  - src/content/compounds/abc34.md
+  - src/content/compounds/abc99.md
+  - src/content/compounds/abc99yne.md
+  - src/content/compounds/cgp201703.md
+  - src/content/compounds/cgp201708.md
+  - src/content/compounds/cgp201721.md
+  - src/content/compounds/cgp201724.md
+  - src/content/compounds/cgp201725.md
+  - src/content/compounds/cgp201726.md
+  - src/content/compounds/cgp201728.md
+  - src/content/compounds/cgp201729.md
+  - src/content/compounds/cgp201730.md
+  - src/content/compounds/cpag-1.md
+  - src/content/compounds/do264.md
+  - src/content/compounds/do271.md
+  - src/content/compounds/do53.md
+  - src/content/compounds/ht01.md
+  - src/content/compounds/ht02.md
+  - src/content/compounds/jjh260.md
+  - src/content/compounds/jw972.md
+  - src/content/compounds/kc01.md
+  - src/content/compounds/klh40.md
+  - src/content/compounds/klh45.md
+  - src/content/compounds/knj51.md
+  - src/content/compounds/knj57.md
+  - src/content/compounds/kt185.md
+  - src/content/compounds/kt195.md
+  - src/content/compounds/ml226.md
+  - src/content/compounds/p11.md
+  - src/content/compounds/pal12.md
+  - src/content/compounds/pal4.md
+  - src/content/compounds/uk-5099.md
+  - src/content/compounds/whp01.md
+  - src/content/compounds/wwl113.md
+  - src/content/compounds/wwl113u.md
+  - src/content/compounds/wwl228.md
+  - src/content/compounds/wwl229.md
+  - src/content/compounds/wwl70.md
+  - src/content/compounds/yy4-yne.md
+  - src/content/compounds/yy4.md
