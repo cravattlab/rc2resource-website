@@ -1,24 +1,24 @@
 +++
 target = "ABHD12"
 
-    [[references]]
-        authors_list = "Blankman, J. L., Long, J. Z., Trauger, S. A., Siuzdak, G., and Cravatt, B. F."
-        title = "ABHD12 controls brain lysophosphatidylserine pathways that are deregulated in a murine model of the neurodegenerative disease PHARC"
-        journal = "Proc. Natl. Acad. Sci. U.S.A."
-        year = 2013
-        volume = 110
-        pages = "1500-1505"
-        doi_link = "https://doi.org/10.1073/pnas.1217121110"
-        pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/23297193"
-    [[references]]
-        authors_list = "Kamat, S. S., Camara, K., Parsons, W. H., Chen, D. H., Dix, M. M., Bird, T. D., Howell, A. R., and Cravatt, B. F."
-        title = "Immunomodulatory lysophosphatidylserines are regulated by ABHD16A and ABHD12 interplay"
-        journal = "Nat. Chem. Biol."
-        year = 2015
-        volume = 11
-        pages = "164-171"
-        doi_link = "https://doi.org/10.1038/nchembio.1721"
-        pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/25580854"
+[[references]]
+authors_list = "Blankman, J. L., Long, J. Z., Trauger, S. A., Siuzdak, G., and Cravatt, B. F."
+title = "ABHD12 controls brain lysophosphatidylserine pathways that are deregulated in a murine model of the neurodegenerative disease PHARC"
+journal = "Proc. Natl. Acad. Sci. U.S.A."
+year = "2013"
+volume = 110
+pages = "1500-1505"
+doi_link = "https://doi.org/10.1073/pnas.1217121110"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/23297193"
+[[references]]
+authors_list = "Kamat, S. S., Camara, K., Parsons, W. H., Chen, D. H., Dix, M. M., Bird, T. D., Howell, A. R., and Cravatt, B. F."
+title = "Immunomodulatory lysophosphatidylserines are regulated by ABHD16A and ABHD12 interplay"
+journal = "Nat. Chem. Biol."
+year = "2015"
+volume = 11
+pages = "164-171"
+doi_link = "https://doi.org/10.1038/nchembio.1721"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/25580854"
 
 +++
 

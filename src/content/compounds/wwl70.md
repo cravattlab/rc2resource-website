@@ -31,7 +31,7 @@ link = "http://online.aurorafinechemicals.com/info?ID=A18.033.969"
 authors_list = "Li, W., Blankman, J. L., and Cravatt, B. F."
 title = "A Functional Proteomic Strategy to Discover Inhibitors for Uncharacterized Hydrolases"
 journal = "J. Am. Chem. Soc."
-year = 2007
+year = "2007"
 volume = 129
 pages = "9594-9595"
 doi_link = "https://doi.org/10.1021/ja073650c"
@@ -40,7 +40,7 @@ pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/17629278"
 authors_list = "Zhao, S., Mugabo, Y., Ballentine, G., Attane, C., Iglesias, J., Poursharifi, P., Zhang, D., Nguyen, T. A., Erb, H., Prentki, R., Peyot, M. L., Joly, E., Tobin, S., Fulton, S., Brown, J. M., Madiraju, S. R., and Prentki, M."
 title = "α/β-Hydrolase Domain 6 Deletion Induces Adipose Browning and Prevents Obesity and Type 2 Diabetes"
 journal = "Cell Rep."
-year = 2016
+year = "2016"
 volume = 14
 pages = "2872-2888"
 doi_link = "https://doi.org/j.celrep.2016.02.076"
