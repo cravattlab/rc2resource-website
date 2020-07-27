@@ -1,7 +1,7 @@
 +++
 name = "WWL113U"
 target = "CES3 (Ces1d)"
-activity = "Control compound for WWL113"
+activity = "Control compound for <a href='#wwl113' class='js-scroll-trigger'>WWL113</a>"
 pubchem_cid = "72183489"
 cas = "1528560-36-2"
 systematic_name = "ethyl 4'-(3-methyl-3-(3-(pyridin-4-yl)benzyl)ureido)-[1,1'-biphenyl]-4-carboxylate"

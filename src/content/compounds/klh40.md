@@ -1,7 +1,7 @@
 +++
 name = "KLH40"
 target = "DDHD2"
-activity = "Control compound for KLH45"
+activity = "Control compound for <a href='#klh45' class='js-scroll-trigger'>KLH45</a>"
 pubchem_cid = "132274141"
 cas = "-"
 systematic_name = "(R)-(3-benzylmorpholino)(4-(4-(trifluoromethoxy)phenyl)-1H-1,2,3-triazol-1-yl)methanone"
