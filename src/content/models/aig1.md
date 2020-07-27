@@ -1,16 +1,15 @@
 +++
 target = "AIG1"
 
-[references]
-    [references.erikci_ertunc2020]
-        authors_list = "Erikci Ertunc, M., Kok, B. P., Parsons, W. H., Wang, J. G., Tan, D., Donaldson, C. J., Pinto, A. F. M., Vaughan, J. M., Ngo, N., Lum, K. M., Henry, C. L., Coppola, A. R., Niphakis, M. J., Cravatt, B. F., Saez, E., Saghatelian, A."
-        title = "AIG1 and ADTRP are endogenous hydrolases of fatty acid esters of hydroxy fatty acids (FAHFAs) in mice"
-        journal = "The Journal of Biological Chemistry"
-        year = 2020
-        volume = 295
-        pages = "5891-5905"
-        doi_link = "https://dx.doi.org/10.1074/jbc.RA119.012145"
-        pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/32152231"
+[[references]]
+authors_list = "Erikci Ertunc, M., Kok, B. P., Parsons, W. H., Wang, J. G., Tan, D., Donaldson, C. J., Pinto, A. F. M., Vaughan, J. M., Ngo, N., Lum, K. M., Henry, C. L., Coppola, A. R., Niphakis, M. J., Cravatt, B. F., Saez, E., Saghatelian, A."
+title = "AIG1 and ADTRP are endogenous hydrolases of fatty acid esters of hydroxy fatty acids (FAHFAs) in mice"
+journal = "The Journal of Biological Chemistry"
+year = 2020
+volume = 295
+pages = "5891-5905"
+doi_link = "https://dx.doi.org/10.1074/jbc.RA119.012145"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/32152231"
 +++
 
 <p><em>Knockout type:</em> Whole-body KO generated using CRISPR technology.</p>

@@ -8,16 +8,15 @@ systematic_name = "N-(3-benzyl-1-(3-(4-(pent-4-ynoyl)piperazin-1-yl)benzoyl)pipe
 synonyms = []
 molecular_weight = "575.1500"
 
-[references]
-    [references.yamashita2019]
-        authors_list = "Yamashita, Y., Vinogradova, E. V., Zhang, X., Suciu, R. M., Cravatt, B. F."
-        title = "A Chemical Proteomic Probe for the Mitochondrial Pyruvate Carrier Complex"
-        journal = "Angewandte Chemie (International ed. in English)"
-        year = 2019
-        volume = 59
-        pages = "3896-3899"
-        doi_link = "https://dx.doi.org/10.1002/anie.201914391"
-        pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/31863675"
+[[references]]
+authors_list = "Yamashita, Y., Vinogradova, E. V., Zhang, X., Suciu, R. M., Cravatt, B. F."
+title = "A Chemical Proteomic Probe for the Mitochondrial Pyruvate Carrier Complex"
+journal = "Angewandte Chemie (International ed. in English)"
+year = 2019
+volume = 59
+pages = "3896-3899"
+doi_link = "https://dx.doi.org/10.1002/anie.201914391"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/31863675"
 
 +++
 

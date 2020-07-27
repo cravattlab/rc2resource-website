@@ -8,30 +8,28 @@ systematic_name = "N-cyclohexyl-N-phenethyl-4-(4-(trifluoromethoxy)phenyl)-2H-1,
 synonyms = []
 molecular_weight = "458.49"
 
-[suppliers]
-    [suppliers.sigma]
-        name = "Sigma"
-        link = "https://www.sigmaaldrich.com/catalog/product/sigma/sml1998"
-    [suppliers.cayman]
-        name = "Cayman"
-        link = "https://www.caymanchem.com/product/19889"
-    [suppliers.tocris]
-        name = "Tocris"
-        link = "https://www.tocris.com/products/klh-45_5865"
-    [suppliers.rndsystems]
-        name = "R&D Systems"
-        link = "https://www.rndsystems.com/products/klh-45_5865"
+[[suppliers]]
+name = "Sigma"
+link = "https://www.sigmaaldrich.com/catalog/product/sigma/sml1998"
+[[suppliers]]
+name = "Cayman"
+link = "https://www.caymanchem.com/product/19889"
+[[suppliers]]
+name = "Tocris"
+link = "https://www.tocris.com/products/klh-45_5865"
+[[suppliers]]
+name = "R&D Systems"
+link = "https://www.rndsystems.com/products/klh-45_5865"
 
-[references]
-    [references.inloes]
-        authors_list = "Inloes, J. M., Hsu, K.-L., Dix, M. M., Viader, A., Masuda, K., Takei, T., Wood, M. R., and Cravatt, B. F."
-        title = "The hereditary spastic paraplegia-related enzyme DDHD2 is a principal brain triglyceride lipase"
-        journal = "Proc. Natl. Acad. Sci. U.S.A."
-        year = 2014
-        volume = 111
-        pages = "14924-14929"
-        doi_link = "https://doi.org/10.1073/pnas.1413706111"
-        pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/25267624"
+[[references]]
+authors_list = "Inloes, J. M., Hsu, K.-L., Dix, M. M., Viader, A., Masuda, K., Takei, T., Wood, M. R., and Cravatt, B. F."
+title = "The hereditary spastic paraplegia-related enzyme DDHD2 is a principal brain triglyceride lipase"
+journal = "Proc. Natl. Acad. Sci. U.S.A."
+year = 2014
+volume = 111
+pages = "14924-14929"
+doi_link = "https://doi.org/10.1073/pnas.1413706111"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/25267624"
 
 +++
 

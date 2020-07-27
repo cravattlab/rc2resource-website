@@ -8,18 +8,16 @@ systematic_name = "ethyl 4'-(3-methyl-3-(3-(pyridin-4-yl)benzyl)ureido)-[1,1'-bi
 synonyms = []
 molecular_weight = "465.21"
 
-[suppliers]
 
-[references]
-    [references.dominguez]
-        authors_list = "Dominguez, E., Galmozzi, A., Chang, J. W., Hsu, K. L., Pawlak, J., Li, W., Godio, C., Thomas, J., Partida, D., Niessen, S., O'Brien, P. E., Russell, A. P., Watt, M. J., Nomura, D. K., Cravatt, B. F., and Saez, E."
-        title = "Integrated phenotypic and activity-based profiling links Ces3 to obesity and diabetes"
-        journal = "Nat. Chem. Biol."
-        year = 2014
-        volume = 10
-        pages = "113-121"
-        doi_link = "https://doi.org/10.1038/nchembio.1429"
-        pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/24362705"
+[[references]]
+authors_list = "Dominguez, E., Galmozzi, A., Chang, J. W., Hsu, K. L., Pawlak, J., Li, W., Godio, C., Thomas, J., Partida, D., Niessen, S., O'Brien, P. E., Russell, A. P., Watt, M. J., Nomura, D. K., Cravatt, B. F., and Saez, E."
+title = "Integrated phenotypic and activity-based profiling links Ces3 to obesity and diabetes"
+journal = "Nat. Chem. Biol."
+year = 2014
+volume = 10
+pages = "113-121"
+doi_link = "https://doi.org/10.1038/nchembio.1429"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/24362705"
 
 +++
 

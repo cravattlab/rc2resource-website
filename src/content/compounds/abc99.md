@@ -8,27 +8,25 @@ systematic_name = "7-(4-chlorobenzyl)-1,3-dioxohexahydroimidazo[1,5-a]pyrazin-2(
 synonyms = []
 molecular_weight = "456.88"
 
-[suppliers]
-    [suppliers.cayman]
-        name = "Cayman"
-        link = "https://www.caymanchem.com/product/25858"
-    [suppliers.aablocks]
-        name = "AA Blocks"
-        link = "https://www.aablocks.com/goods/Goods/detail?id=AA01EQAI"
-    [suppliers.dcchemicals]
-        name = "DC Chemicals"
-        link = "http://www.dcchemicals.com/product_show-DC10929.html"
+[[suppliers]]
+name = "Cayman"
+link = "https://www.caymanchem.com/product/25858"
+[[suppliers]]
+name = "AA Blocks"
+link = "https://www.aablocks.com/goods/Goods/detail?id=AA01EQAI"
+[[suppliers]]
+name = "DC Chemicals"
+link = "http://www.dcchemicals.com/product_show-DC10929.html"
 
-[references]
-    [references.suciu]
-        authors_list = "Suciu, R. M., Cognetta, A. B., 3rd, Potter Z. E., and Cravatt, B. F."
-        title = "Selective Irreversible Inhibitors of the Wnt-Deacylating Enzyme NOTUM Developed by Activity-Based Protein Profiling"
-        journal = "ACS Med. Chem. Lett."
-        year = 2018
-        volume = 9
-        pages = "563-568"
-        doi_link = "https://doi.org/10.1021/acsmedchemlett.8b00191"
-        pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/29937983"
+[[references]]
+authors_list = "Suciu, R. M., Cognetta, A. B., 3rd, Potter Z. E., and Cravatt, B. F."
+title = "Selective Irreversible Inhibitors of the Wnt-Deacylating Enzyme NOTUM Developed by Activity-Based Protein Profiling"
+journal = "ACS Med. Chem. Lett."
+year = 2018
+volume = 9
+pages = "563-568"
+doi_link = "https://doi.org/10.1021/acsmedchemlett.8b00191"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/29937983"
 +++
 
 ABC99 is a potent and selective inhibitor of NOTUM, a secreted serine hydrolase that modulates Wnt signaling. Wnt proteins are post-translationally modified (palmitoleoylation, C18:1) on a conserved serine residue by the acyltransferase porcupine (PORCN) and deacylated by NOTUM. These events control Wnt pathway output which in turn affects biological processes such as tissue regeneration and cell proliferation.

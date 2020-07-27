@@ -1,16 +1,15 @@
 +++
 target = "PGRMC2"
 
-[references]
-    [references.galmozzi2019]
-        authors_list = "Galmozzi, A., Kok, B. P., Kim, A. S., Montenegro-Burke, J. R., Lee, J. Y., Spreafico, R., Mosure, S., Albert, V., Cintron-Colon, R., Godio, C., Webb, W. R., Conti, B., Solt, L. A., Kojetin, D., Parker, C. G., Peluso, J. J., Pru, J. K., Siuzdak, G., Cravatt, B. F., Saez, E."
-        title = "PGRMC2 is an intracellular haem chaperone critical for adipocyte function"
-        journal = "Nature"
-        year = 2019
-        volume = 576
-        pages = "138-142"
-        doi_link = "https://dx.doi.org/10.1038/s41586-019-1774-2"
-        pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/31748741"
+[[references]]
+authors_list = "Galmozzi, A., Kok, B. P., Kim, A. S., Montenegro-Burke, J. R., Lee, J. Y., Spreafico, R., Mosure, S., Albert, V., Cintron-Colon, R., Godio, C., Webb, W. R., Conti, B., Solt, L. A., Kojetin, D., Parker, C. G., Peluso, J. J., Pru, J. K., Siuzdak, G., Cravatt, B. F., Saez, E."
+title = "PGRMC2 is an intracellular haem chaperone critical for adipocyte function"
+journal = "Nature"
+year = 2019
+volume = 576
+pages = "138-142"
+doi_link = "https://dx.doi.org/10.1038/s41586-019-1774-2"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/31748741"
 +++
 
 <p><em>Knockout type:</em> Conditional, adipose-specific. Strain was created by breeding mice carrying a PGRMC2 floxed allele to adiponectin-Cre mice (JAX stock 010803) to delete PGRMC2 in mature white and brown adipocytes. Mutants are in the C57BL/6J background.</p>

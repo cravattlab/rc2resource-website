@@ -8,18 +8,16 @@ systematic_name = "(R)-(3-benzylmorpholino)(4-(4-(trifluoromethoxy)phenyl)-1H-1,
 synonyms = []
 molecular_weight = "432.40"
 
-[suppliers]
 
-[references]
-    [references.inloes]
-        authors_list = "Inloes, J. M., Hsu, K.-L., Dix, M. M., Viader, A., Masuda, K., Takei, T., Wood, M. R., and Cravatt, B. F."
-        title = "The hereditary spastic paraplegia-related enzyme DDHD2 is a principal brain triglyceride lipase"
-        journal = "Proc. Natl. Acad. Sci. U.S.A."
-        year = 2014
-        volume = 111
-        pages = "14924-14929"
-        doi_link = "https://doi.org/10.1073/pnas.1413706111"
-        pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/25267624"
+[[references]]
+authors_list = "Inloes, J. M., Hsu, K.-L., Dix, M. M., Viader, A., Masuda, K., Takei, T., Wood, M. R., and Cravatt, B. F."
+title = "The hereditary spastic paraplegia-related enzyme DDHD2 is a principal brain triglyceride lipase"
+journal = "Proc. Natl. Acad. Sci. U.S.A."
+year = 2014
+volume = 111
+pages = "14924-14929"
+doi_link = "https://doi.org/10.1073/pnas.1413706111"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/25267624"
 
 +++
 
