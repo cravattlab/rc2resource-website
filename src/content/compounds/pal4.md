@@ -1,5 +1,6 @@
 +++
 name = "PAL-4"
+structure = "/img/structures/PAL-4.png"
 target = "LYPLAL1"
 activity = "Activator"
 pubchem_cid = "405056727"

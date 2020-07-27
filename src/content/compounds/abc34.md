@@ -1,5 +1,6 @@
 +++
 name = "ABC34"
+structure = "/img/structures/ABC34.png"
 target = "AIG1 / ADTRP"
 activity = "Control compound for JJH260"
 pubchem_cid = "118525588"

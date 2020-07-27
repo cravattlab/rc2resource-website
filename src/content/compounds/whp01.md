@@ -1,5 +1,6 @@
 +++
 name = "WHP01"
+structure = "/img/structures/WHP01.png"
 target = "AIG1 / ADTRP"
 activity = "Activity-based Probe"
 pubchem_cid = "86289026"

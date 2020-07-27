@@ -1,5 +1,6 @@
 +++
 name = "KNJ57"
+structure = "/img/structures/KNJ57.png"
 target = "PTGR2"
 activity = "Inhibitor"
 pubchem_cid = "16656440"

@@ -1,5 +1,6 @@
 +++
 name = "KLH45"
+structure = "/img/structures/KLH45.png"
 target = "DDHD2"
 activity = "Inhibitor"
 pubchem_cid = "126970670"

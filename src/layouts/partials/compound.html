@@ -4,7 +4,7 @@
             <tr>
                 <td colspan="2">
                     <a id="{{ lower .Params.name }}">
-                        {{- $image := resources.Get (printf "img/structures/%s.png" .Params.name ) -}}
+                        {{- $image := resources.Get .Params.structure -}}
                         <img
                             alt="{{ .Params.name }}"
                             src="img/structures/{{ .Params.name }}.png"

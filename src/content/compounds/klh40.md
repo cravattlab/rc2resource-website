@@ -1,5 +1,6 @@
 +++
 name = "KLH40"
+structure = "/img/structures/KLH40.png"
 target = "DDHD2"
 activity = "Control compound for <a href='#klh45' class='js-scroll-trigger'>KLH45</a>"
 pubchem_cid = "132274141"

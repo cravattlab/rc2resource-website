@@ -1,5 +1,6 @@
 +++
 name = "ABC99"
+structure = "/img/structures/ABC99.png"
 target = "NOTUM"
 activity = "Inhibitor"
 pubchem_cid = "134817170"

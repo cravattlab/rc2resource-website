@@ -1,5 +1,6 @@
 +++
 name = "YY4"
+structure = "/img/structures/YY4.png"
 target = "MPC2"
 activity = "Inhibitor"
 pubchem_cid = ""

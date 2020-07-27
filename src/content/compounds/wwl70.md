@@ -1,5 +1,6 @@
 +++
 name = "WWL70"
+structure = "/img/structures/WWL70.png"
 target = "ABHD6"
 activity = "Inhibitor"
 pubchem_cid = "17759121"

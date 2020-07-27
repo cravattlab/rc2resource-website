@@ -1,5 +1,6 @@
 +++
 name = "WWL113U"
+structure = "/img/structures/WWL113U.png"
 target = "CES3 (Ces1d)"
 activity = "Control compound for <a href='#wwl113' class='js-scroll-trigger'>WWL113</a>"
 pubchem_cid = "72183489"

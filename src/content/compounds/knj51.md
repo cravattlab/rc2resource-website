@@ -1,5 +1,6 @@
 +++
 name = "KNJ51"
+structure = "/img/structures/KNJ51.png"
 target = "PTGR2"
 activity = "Control compound for <a href="#knj57" class="js-scroll-trigger">KNJ57</a>"
 pubchem_cid = "132274142"

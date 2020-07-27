@@ -1,5 +1,6 @@
 +++
 name = "YY4-yne"
+structure = "/img/structures/YY4-yne.png"
 target = "MPC2"
 activity = "Covalent probe"
 pubchem_cid = ""

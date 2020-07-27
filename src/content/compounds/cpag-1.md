@@ -1,5 +1,6 @@
 +++
 name = "CPAG-1"
+structure = "/img/structures/CPAG-1.png"
 target = "PGRMC2"
 activity = "Gain-of-function ligand"
 pubchem_cid = "132274146"
