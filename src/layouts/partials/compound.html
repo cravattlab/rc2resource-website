@@ -5,13 +5,10 @@
                 <td colspan="2">
                     <a id="{{ lower .Params.name }}">
                         {{- $image := resources.Get (printf "img/structures/%s.png" .Params.name ) -}}
-                        {{ $aspectRatio := div $image.Width $image.Height }}
-                        {{ $imgClass := cond (ge $aspectRatio 2) "wide" (cond (le $aspectRatio 0.5) "tall" "square") }}
-
                         <img
                             alt="{{ .Params.name }}"
                             src="img/structures/{{ .Params.name }}.png"
-                            class="{{ $imgClass }}"
+                            style="height: {{ (div $image.Height 1.25) }}px; width: {{ (div $image.Width 1.25) }}px;"
                         >
                     </a>
                 </td>
@@ -24,7 +21,9 @@
             </tr>
             <tr>
                 <th>Activity:</th>
-                <td>{{ .Params.activity }}</td>
+                <td>
+                    {{ .Params.activity | safeHTML }}
+                </td>
             </tr>
             <tr>
                 <th>PubChem CID:</th>
