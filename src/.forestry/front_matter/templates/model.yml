@@ -1,6 +1,7 @@
 ---
 label: Animal Model
 hide_body: false
+display_field: target
 fields:
 - type: text
   name: target
