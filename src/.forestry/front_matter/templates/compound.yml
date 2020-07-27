@@ -4,119 +4,125 @@ hide_body: false
 fields:
 - type: text
   name: name
-  label: name
+  label: Name
+  description: Name of the compound
+  config:
+    required: true
 - type: text
   name: target
-  label: target
+  label: Target
+  description: The protein that this compound targets
+  config:
+    required: true
 - type: text
   name: activity
-  label: activity
+  label: Activity
+  description: 'The activity of the compound. For example: inhibitor, activity based
+    probe, control compound etc.'
+  config:
+    required: true
 - type: text
   name: pubchem_cid
-  label: pubchem_cid
+  label: PubChem CID
+  description: 'If available, the numeric PubChem identifier, for example: 134813646'
 - type: text
   name: cas
-  label: cas
+  label: CAS number
+  description: 'CAS# if defined. For example: 2301866-59-9'
 - type: text
   name: systematic_name
-  label: systematic_name
+  label: Systematic name
+  description: 'The systematic name of the compound. For example: 1-(benzylsulfonyl)-4-(2-methoxyphenyl)piperidine.
+    Generate with ChemDraw or similar software.'
 - type: list
   name: synonyms
-  label: synonyms
+  label: Synonyms
+  description: Other names that this compound is known by
+  config:
+    use_select: false
 - type: text
   name: molecular_weight
-  label: molecular_weight
-- type: field_group
-  name: suppliers
-  label: suppliers
+  label: Molecular Weight
+  description: The molecular weight of the compound
+  config:
+    required: true
+- name: suppliers
+  type: field_group_list
   fields:
-  - type: field_group
-    name: cayman
-    label: cayman
-    fields:
-    - type: text
-      name: name
-      label: name
-    - type: text
-      name: link
-      label: link
-  - type: field_group
-    name: sigma
-    label: sigma
-    fields:
-    - type: text
-      name: name
-      label: name
-    - type: text
-      name: link
-      label: link
-  - type: field_group
-    name: medchemexpress
-    label: medchemexpress
-    fields:
-    - type: text
-      name: name
-      label: name
-    - type: text
-      name: link
-      label: link
-- type: field_group
-  name: references
-  label: references
+  - name: name
+    type: text
+    config:
+      required: true
+    label: Name
+    description: 'The name of the supplier. For example: Cayman'
+  - name: link
+    type: text
+    config:
+      required: true
+    label: Link
+    description: Link to the page where one can purchase this compound
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Suppliers
+  description: List of commercial suppliers for this compound.
+- name: references
+  type: field_group_list
   fields:
-  - type: field_group
-    name: halestrap1975
-    label: halestrap1975
-    fields:
-    - type: text
-      name: authors_list
-      label: authors_list
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: journal
-      label: journal
-    - type: number
-      name: year
-      label: year
-    - type: number
-      name: volume
-      label: volume
-    - type: text
-      name: pages
-      label: pages
-    - type: text
-      name: doi_link
-      label: doi_link
-    - type: text
-      name: pubmed_link
-      label: pubmed_link
-  - type: field_group
-    name: yamashita2019
-    label: yamashita2019
-    fields:
-    - type: text
-      name: authors_list
-      label: authors_list
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: journal
-      label: journal
-    - type: number
-      name: year
-      label: year
-    - type: number
-      name: volume
-      label: volume
-    - type: text
-      name: pages
-      label: pages
-    - type: text
-      name: doi_link
-      label: doi_link
-    - type: text
-      name: pubmed_link
-      label: pubmed_link
+  - name: authors_list
+    type: text
+    config:
+      required: true
+    label: Authors
+    description: 'The list of authors. For example: Yamashita, Y., Vinogradova, E.
+      V., Zhang, X., Suciu, R. M., Cravatt, B. F.'
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+    description: The title of the article
+  - name: journal
+    type: text
+    config:
+      required: true
+    label: Journal
+    description: The journal the article was published in
+  - name: year
+    type: text
+    config:
+      required: true
+    label: Year
+    description: The publication year
+  - name: volume
+    type: text
+    config:
+      required: false
+    label: Volume
+    description: The volume of the publication the article appears in
+  - name: pages
+    type: text
+    config:
+      required: false
+    label: Pages
+    description: The pages in the journal that the article appears in
+  - name: doi_link
+    type: text
+    config:
+      required: false
+    label: DOI link
+    description: 'The <strong>full </strong>DOI link pointing to the article. For
+      example: https://dx.doi.org/10.1002/anie.201914391'
+  - name: pubmed_link
+    type: text
+    config:
+      required: false
+    label: PubMed link
+    description: 'Link to the PubMed page for the article. For example: https://www.ncbi.nlm.nih.gov/pubmed/31863675'
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: References
+  description: Literature references pertaining to this compound
