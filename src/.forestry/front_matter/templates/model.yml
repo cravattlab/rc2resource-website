@@ -1,0 +1,69 @@
+---
+label: Animal Model
+hide_body: false
+fields:
+- type: text
+  name: target
+  label: Target
+  description: The protein that this animal model pertains to
+  config:
+    required: true
+- name: references
+  type: field_group_list
+  fields:
+  - name: authors_list
+    type: text
+    config:
+      required: true
+    label: Authors
+    description: 'The list of authors. For example: Yamashita, Y., Vinogradova, E.
+      V., Zhang, X., Suciu, R. M., Cravatt, B. F.'
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+    description: The title of the article
+  - name: journal
+    type: text
+    config:
+      required: true
+    label: Journal
+    description: The journal the article was published in
+  - name: year
+    type: text
+    config:
+      required: true
+    label: Year
+    description: The publication year
+  - name: volume
+    type: text
+    config:
+      required: false
+    label: Volume
+    description: The volume of the publication the article appears in
+  - name: pages
+    type: text
+    config:
+      required: false
+    label: Pages
+    description: The pages in the journal that the article appears in
+  - name: doi_link
+    type: text
+    config:
+      required: false
+    label: DOI link
+    description: 'The <strong>full </strong>DOI link pointing to the article. For
+      example: https://dx.doi.org/10.1002/anie.201914391'
+  - name: pubmed_link
+    type: text
+    config:
+      required: false
+    label: PubMed link
+    description: 'Link to the PubMed page for the article. For example: https://www.ncbi.nlm.nih.gov/pubmed/31863675'
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: References
+  description: Literature references pertaining to this animal model
