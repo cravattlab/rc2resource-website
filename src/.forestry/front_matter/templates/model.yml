@@ -67,7 +67,7 @@ fields:
     labelField: 
   label: References
   description: Literature references pertaining to this animal model
-  pages:
+pages:
   - src/content/models/abhd12.md
   - src/content/models/abhd6.md
   - src/content/models/adtrp.md
