@@ -1,0 +1,122 @@
+---
+label: compound
+hide_body: false
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: target
+  label: target
+- type: text
+  name: activity
+  label: activity
+- type: text
+  name: pubchem_cid
+  label: pubchem_cid
+- type: text
+  name: cas
+  label: cas
+- type: text
+  name: systematic_name
+  label: systematic_name
+- type: list
+  name: synonyms
+  label: synonyms
+- type: text
+  name: molecular_weight
+  label: molecular_weight
+- type: field_group
+  name: suppliers
+  label: suppliers
+  fields:
+  - type: field_group
+    name: cayman
+    label: cayman
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: link
+      label: link
+  - type: field_group
+    name: sigma
+    label: sigma
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: link
+      label: link
+  - type: field_group
+    name: medchemexpress
+    label: medchemexpress
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: link
+      label: link
+- type: field_group
+  name: references
+  label: references
+  fields:
+  - type: field_group
+    name: halestrap1975
+    label: halestrap1975
+    fields:
+    - type: text
+      name: authors_list
+      label: authors_list
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: journal
+      label: journal
+    - type: number
+      name: year
+      label: year
+    - type: number
+      name: volume
+      label: volume
+    - type: text
+      name: pages
+      label: pages
+    - type: text
+      name: doi_link
+      label: doi_link
+    - type: text
+      name: pubmed_link
+      label: pubmed_link
+  - type: field_group
+    name: yamashita2019
+    label: yamashita2019
+    fields:
+    - type: text
+      name: authors_list
+      label: authors_list
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: journal
+      label: journal
+    - type: number
+      name: year
+      label: year
+    - type: number
+      name: volume
+      label: volume
+    - type: text
+      name: pages
+      label: pages
+    - type: text
+      name: doi_link
+      label: doi_link
+    - type: text
+      name: pubmed_link
+      label: pubmed_link
