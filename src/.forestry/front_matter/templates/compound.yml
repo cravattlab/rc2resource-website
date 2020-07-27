@@ -15,6 +15,13 @@ fields:
   description: The protein that this compound targets
   config:
     required: true
+- name: structure
+  type: file
+  config:
+    maxSize: 0.5
+  label: Structure
+  description: PNG image showing the structure of the compound. Please see instructions
+    on GitHub for instructions to ensure consistency between images.
 - type: text
   name: activity
   label: Activity
