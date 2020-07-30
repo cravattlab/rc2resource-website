@@ -1,6 +1,15 @@
 +++
 target = "PGRMC2"
 [[references]]
+authors_list = "Clark, N. C., Pru, C. A., Yee, S. P., Lydon, J. P., Peluso, J. J., Pru, J. K."
+title = "Conditional Ablation of Progesterone Receptor Membrane Component 2 Causes Female Premature Reproductive Senescence"
+journal = "Endocrinology"
+year = 2016
+volume = 158
+pages = "640-651"
+doi_link = "https://dx.doi.org/10.1210/en.2016-1701"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/28005395"
+[[references]]
 authors_list = "Galmozzi, A., Kok, B. P., Kim, A. S., Montenegro-Burke, J. R., Lee, J. Y., Spreafico, R., Mosure, S., Albert, V., Cintron-Colon, R., Godio, C., Webb, W. R., Conti, B., Solt, L. A., Kojetin, D., Parker, C. G., Peluso, J. J., Pru, J. K., Siuzdak, G., Cravatt, B. F., Saez, E."
 doi_link = "https://dx.doi.org/10.1038/s41586-019-1774-2"
 journal = "Nature"
