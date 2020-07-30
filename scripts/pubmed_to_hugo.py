@@ -68,18 +68,17 @@ def get_abbrevs():
 def main(ids):
     articles = query_pubmed(ids)
 
-    print('[references]')
 
     for article in articles:
-        print(f'''    [references.{article['first_author_last_name'].lower().replace(' ', '_')}{article['year']}]
-        authors_list = "{article['authors']}"
-        title = "{article['title']}"
-        journal = "{article['journal']}"
-        year = {article['year']}
-        volume = {article['volume']}
-        pages = "{article['pages']}"
-        doi_link = "{article['link']}"
-        pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/{article['pubmed_id']}"'''
+        print(f'''[[references]]
+authors_list = "{article['authors']}"
+title = "{article['title']}"
+journal = "{article['journal']}"
+year = {article['year']}
+volume = {article['volume']}
+pages = "{article['pages']}"
+doi_link = "{article['link']}"
+pubmed_link = "https://www.ncbi.nlm.nih.gov/pubmed/{article['pubmed_id']}"'''
     )
 
 
