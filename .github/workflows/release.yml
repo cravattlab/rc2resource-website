@@ -30,7 +30,7 @@ jobs:
           path: rc2resource-website-${{ steps.tag.outputs.tag }}.tar.gz
 
   release:
-    needs: [deploy]
+    needs: [build]
     runs-on: ubuntu-latest
 
     steps:
