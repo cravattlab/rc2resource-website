@@ -19,7 +19,7 @@ jobs:
         with:
           hugo-version: '0.74.2'
       - name: Build
-        run: hugo -s src -d build
+        run: hugo -s src -d ../build
       - name: Zipping release
         run: |
           tar -czvf rc2resource-website-${{ steps.tag.outputs.tag }}.tar.gz -C build .
