@@ -1,0 +1,30 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*' # Push events to matching v*
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get tag
+        id: tag
+        run: |
+          echo ::set-output name=tag::${GITHUB_REF#refs/tags/}
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.74.2'
+      - name: Build
+        run: hugo -s src -d build
+      - name: Zipping release
+        run: |
+          tar -czvf rc2resource-website-${{ steps.tag.outputs.tag }}.tar.gz -C build *
+      - name: Upload release file
+        uses: actions/upload-artifact@v1
+        with:
+          name: rc2resource-website-${{ steps.tag.outputs.tag }}.tar.gz
+          path: rc2resource-website-${{ steps.tag.outputs.tag }}.tar.gz
