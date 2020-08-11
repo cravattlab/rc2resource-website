@@ -22,7 +22,7 @@ jobs:
         run: hugo -s src -d ../build
       - name: Zipping release
         run: |
-          tar -czvf rc2resource-website-${{ steps.tag.outputs.tag }}.tar.gz -C build .
+          find build/ -printf "%P\n" | tar -czvf rc2resource-website-${{ steps.tag.outputs.tag }}.tar.gz --no-recursion -C build/ -T -
       - name: Upload release file
         uses: actions/upload-artifact@v1
         with:
